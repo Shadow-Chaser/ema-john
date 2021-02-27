@@ -33,10 +33,10 @@ const Cart = (props) => {
         <div>
             <h2>Order Summary</h2>
             <h3>Items Ordered : {cart.length} </h3>
-            <p>Product Price : ${formatNumber(total)}</p>
-            <p>Shipping Cost : ${shipping}</p>
-            <p><small>Vat : ${formatNumber(vat)} </small></p>
-            <h4>Total Price : ${formatNumber(grandTotal)} </h4>
+            <p>Product Price : $ {formatNumber(total)}</p>
+            <p>Shipping Cost : $ {shipping}</p>
+            <p><small>Vat : $ {formatNumber(vat)} </small></p>
+            <h4>Total Price : $ {formatNumber(grandTotal)} </h4>
         </div>
     );
 };
